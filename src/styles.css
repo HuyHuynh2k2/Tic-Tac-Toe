@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.board-row {
+  display: flex;  /* Aligns squares horizontally */
+}
+
+.square {
+  height: 50px;  /* Increased for better visibility */
+  width: 50px;   /* Increased for better visibility */
+  border: 1px solid #999;
+  margin-right: -1px;  /* Prevents double borders */
+  margin-top: -1px;    /* Prevents double borders */
+  padding: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;   /* Centers the X and O vertically */
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Optional: to wrap the board and center it */
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
